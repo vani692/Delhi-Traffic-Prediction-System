@@ -1,0 +1,146 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Intro section */
+.intro {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.search-container input {
+    padding: 10px;
+    margin: 0 10px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #303f9f;
+}
+
+/* Map container */
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Traffic info section */
+#traffic-info {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#traffic-info h2 {
+    font-size: 2em;
+}
+
+#traffic-info .traffic-img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#traffic-info p {
+    font-size: 1.1em;
+}
+
+/* Info section */
+#info-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#info-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#info-section .info-img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#info-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#info-section ul li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom : 0;
+}
+.GM{
+    width: 70vw;
+    height:25vh;
+    position: relative;
+    left:25vw;
+
+}

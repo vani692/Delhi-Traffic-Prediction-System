@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Traffic Prediction | UrbanEase</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap" async defer></script> -->
+</head>
+<body>
+
+    <header>
+        <h1>🚦 Delhi Traffic Prediction</h1>
+        <p>Welcome to UrbanEase — your ultimate solution for tackling traffic congestion in Delhi!</p>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome to UrbanEase</h2>
+        <p>
+            Your ultimate solution for tackling traffic congestion in Delhi using cutting-edge AI technology.
+            Our platform leverages real-time data analytics, machine learning, and intelligent traffic prediction 
+            management systems to optimize traffic flow, reduce commute times, and enhance the overall urban mobility experience. 
+            With UrbanEase, you can navigate the city's bustling streets more efficiently and sustainably, making your daily commute 
+            smoother and stress-free. Join us in creating a smarter, more connected Delhi, where traffic woes become a thing of the past.
+        </p>
+        <p>Explore UrbanEase and discover how our innovative solutions can transform your journey through the heart of India's capital. 🚦🚗✨</p>
+    </section>
+
+
+    <div class="search-container">
+        <input type="text" id="origin-input" placeholder="Enter Origin..." autocomplete="off">
+        <input type="text" id="destination-input" placeholder="Enter Destination..." autocomplete="off">
+        <button onclick="findRoute()">Find Fastest Route</button>
+    </div>
+<div class="GM">
+    <img  width="600px" src="google.jpg" alt="google map">
+
+</div>
+    <div id="map"></div>
+
+    <section id="traffic-info">
+        <h2>📍 Route Details</h2>
+        <img src="traffic.jpg" alt="Traffic in Delhi" class="traffic-img">
+        <p>🚗 <strong>Distance:</strong> <span id="distance">-</span></p>
+        <p>⏳ <strong>Estimated Time:</strong> <span id="duration">-</span></p>
+        <p>💰 <strong>Estimated Fare:</strong> ₹<span id="fare">-</span></p>
+        <p>🚦 <strong>Traffic Congestion:</strong> <span id="congestion-level">-</span></p>
+    </section>
+
+    <section id="info-section">
+        <h2>🛣 About Delhi Traffic</h2>
+        <img src="delhi-traffic.jpg" alt="Delhi Traffic Congestion" class="info-img">
+        <p>Delhi is known for its heavy traffic, especially during peak hours. Major traffic-prone areas include:</p>
+        <ul>
+            <li>🚥 ITO Crossing</li>
+            <li>🚥 Dhaula Kuan</li>
+            <li>🚥 Ashram Chowk</li>
+            <li>🚥 AIIMS Flyover</li>
+            <li>🚥 Connaught Place</li>
+        </ul>
+        <p>To avoid congestion, use real-time traffic updates and choose alternative routes.</p>
+    </section>
+
+    <footer>
+        <p>Developed for Professional Ideathon 🚀 | Live Traffic & Fastest Route</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
